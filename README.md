@@ -15,5 +15,6 @@
 
 ```
 download_Urasawa_Monster.sh <start_chapter_number> <end_chapter_number> {dump-chapters-into-separate-folders | dump-chapters-into-one-folder} [<output_dir>]
+
 download_Urasawa_Pluto.sh <start_chapter_number> <end_chapter_number> {dump-chapters-into-separate-folders | dump-chapters-into-one-folder} [<output_dir>]
 ```
