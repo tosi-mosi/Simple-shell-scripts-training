@@ -1,4 +1,4 @@
-# Download manga chapters from [monster-manga.com](monster-manga.com), [pluto-manga-online.com](pluto-manga-online.com)
+# Download manga chapters from
 
 ## TODO
 
@@ -6,14 +6,14 @@
 * parse links from main page (because chapter pages for "Monster" for example follow multiple naming rules)
 	* in "Monster" some chapter was missing
 
+## Sources
 
-``` 
-Description:
-  Downloads specified chapters of Naoki Urasawa's manga "Pluto" from "pluto-manga-online.com" 
+* [monster-manga.com](monster-manga.com)
+* [pluto-manga-online.com](pluto-manga-online.com)
 
-Usage:
-  download_Urasawa_Pluto.sh <start_chapter_number> <end_chapter_number> {dump-chapters-into-separate-folders | dump-chapters-into-one-folder} [<output_dir>]
+## Usage
 
-Example:
-  download_Urasawa_Pluto.sh 64 65 dump-chapters-into-separate-folders
+```
+download_Urasawa_Monster.sh <start_chapter_number> <end_chapter_number> {dump-chapters-into-separate-folders | dump-chapters-into-one-folder} [<output_dir>]
+download_Urasawa_Pluto.sh <start_chapter_number> <end_chapter_number> {dump-chapters-into-separate-folders | dump-chapters-into-one-folder} [<output_dir>]
 ```
